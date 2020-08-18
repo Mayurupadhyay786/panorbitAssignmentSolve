@@ -23,7 +23,7 @@ const LandingPage = (  {name,name1} ) => {
                           </div> 
                         <div className='tc br3 pa3 ma2 dib bw2'>
 			
-				<Card>
+				<Card className="list-card">
                                 <Scroll>
                                         <CardBody style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "30px", backgroundColor: "#F5F5F5" }}>Select an account</CardBody>
                                         <CardFooter className='tl' ><img alt='persons'  src={'https://panorbit.in/wp-content/uploads/2019/hotlink-ok/1001.jpeg'} style={{ width: 35, height: 35, borderRadius: 400/ 2}} /> &nbsp; &nbsp; <a href="https://ritika-soni.github.io/PanorbitAssignment1/"> {name} </a></CardFooter>
